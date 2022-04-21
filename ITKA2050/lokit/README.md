@@ -1,5 +1,7 @@
 ## ITKA2050 Tehtävä 4: Lokitiedostot
 
+Huom! Ohjelma vaatii python3, jotta voi ajaa ohjelman.
+
 ### 1. ei vaadittu koodiesimerkkiä
 
 ### 2. aja ohjelma konsolissa tai vastaavassa:
