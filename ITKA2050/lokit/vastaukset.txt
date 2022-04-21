@@ -1,0 +1,19 @@
+1.  Mikä on suositeltu kirjasto lokien keräämiselle?
+
+    V1: Suositeltu kirjasto lokien keräämiselle Pythonissa on luennollakin mainittu
+        logging-kirjasto.
+
+2.  Onko tässä kirjastossa mahdollisuus väärentää lokeja (jossain tilanteessa) 
+    injektiohyökkäyksellä? Miten tämä tapahtuisi?
+
+    V2: Jos ohjelmoija kirjoittaa esimerkin mukaisesti koodia, niin silloin lokien
+        väärentäminen onnistuu helposti, lisäämällä esim rivinvaihdon (\n) komentoon.
+
+3.  Voitko tällä kirjastolla estää injektion käyttämällä rakenteista dataa lokeissa? Miten?
+
+    V3: Voi estää esimerkiksi lisäämällä repr() oikeaan paikkaan, oikeeseen aikaan.
+
+4.  Onko kirjastossa muita tapoja estää loginväärennys (esim. tallettaminen tietokantaan?)
+
+    V4: Estäminen onnistuu tallettamalla logit tietokantaan. Esimerkiksi voidaan käyttää
+        valmista sqlite kirjastoa.
